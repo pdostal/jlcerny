@@ -23,12 +23,15 @@ body>header>h1>a { color: #000; text-decoration: none; }
 body>header>.banner { float: right; height: 30px; width: 200px; margin: 0px 15px; }
 
 body>header>nav { background-image: url('img_menu.png'); background-size: 792px,36px; width: 792px; height: 36px; }
+body>header>nav ul { padding-left: 5px; }
 body>header>nav li { display: inline-block; height: 36px; float: left; }
-body>header>nav li a { text-decoration: none; color: #fff; }
-body>header>nav li a div { width: 99px; margin: 10px 0px; text-align: center; }
+body>header>nav li a { display: inline-block; text-decoration: none; color: #fff; width: 98px; text-align: center; margin: 3.85px 0px 0px 0px; height: 29px; }
+body>header>nav li a div { padding: 6px 0px; }
+body>header>nav li a:hover { background: rgba(0, 0, 0, 0.25); }
+body>header>nav li.active a { background: rgba(0, 0, 0, 0.35); }
 
 #widget_search { float: left; }
-#widget_search .screen-reader-text { display: none; }
+#widget_search .screen-reader-text { display: non; }
 
 #main { float: left; width: 792px; }
 #main>ul li { float: left; height: 100px; width: 225px; display: inline-block; margin: 0px 15px; }
