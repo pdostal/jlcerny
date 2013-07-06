@@ -1,0 +1,34 @@
+
+/*
+Theme Name: SimpleBlog
+Description: My simple blog theme
+Version: 3.0
+Author: Pavel Dostál
+Author URI: http://pdostal.cz/
+Tags: 
+*/
+
+/* Begin Typography & Colors */
+
+/* Default */
+html,body,section,header,div,h1,h2,ul,li { margin: 0px; padding: 0px; overflow: hidden; }
+
+/* Body */
+html { background-color: #ededed; font-family: sans-serif, tahoma, verdana, arial; font-size: 13px; overflow: auto; }
+body { background-color: #fff; width: 1000px; margin: 10px auto; padding: 10px; }
+
+header { width: 100%; height: 30px; }
+header>h1 { display: block; float: left; width: 200px; }
+header>.banner { float: right; height: 30px; width: 200px; margin: 0px 15px; }
+
+#widget_search { float: left; }
+#widget_search .screen-reader-text { display: none; }
+
+aside { float: right; width: 200px; margin: 0px 15px; }
+
+#main { float: left; width: 750px; }
+#postsindex li { float: left; height: 100px; width: 375px; display: inline-block; }
+
+footer { width: 100%; text-align: center; margin-top: 25px; }
+
+.clear { clear: both; }
