@@ -1,4 +1,4 @@
-jlcerny
-=======
+blog.pdostal.cz
+===============
 
-WP theme for jlcerny.cz
+My blog wordpress theme
