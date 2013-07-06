@@ -1,6 +1,5 @@
 <?php
 	include('header.php');
-	include('sidebar.php');
 	$args = array(
 		'id_form' => 'commentform',
 		'id_submit' => 'submit',

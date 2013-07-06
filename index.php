@@ -1,6 +1,5 @@
 <?php
 	include('header.php');
-	include('sidebar.php');
 ?>
 <section id="main">
 <?php

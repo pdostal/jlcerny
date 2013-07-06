@@ -1,6 +1,5 @@
 <?php
 	include('header.php');
-	include('sidebar.php');
 ?>
 <section id="main">
 <?php
@@ -14,7 +13,7 @@
 		<li id="post<?php echo the_ID(); ?>">
 				<span class="date"><?php the_time('d. m. Y'); ?></span>
 				<a href="<?php the_permalink(""); ?>"><h1 class="title"><?php the_title(); ?></h1></a>
-				<div class="content"><?php echo strip_tags(get_the_content('(...)')); ?></div>
+				<div class="content"><?php echo strip_tags(get_the_excerpt('...')); ?></div>
 		</li>
 <?php
 	}
