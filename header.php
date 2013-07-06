@@ -40,6 +40,6 @@
 			</div>
             <div class="clear"></div>
 			<nav>
-				<?php wp_nav_menu(array('theme_location' => 'headermenu', 'link_before' => '<span>', 'link_after' => '</span>')); ?>
+				<?php wp_nav_menu(array('theme_location' => 'headermenu', 'link_before' => '<div>', 'link_after' => '</div>')); ?>
 			</nav>
 		</header>
