@@ -1,17 +1,3 @@
-<?php
-	 include('mobile_detect.php');
-	 $detect = new Mobile_Detect;
-	 $screentype = trim(htmlspecialchars(htmlspecialchars_decode($_GET['screentype'], ENT_NOQUOTES), ENT_NOQUOTES));
-	 if(!empty($screentype)) { $_SESSION['screentype'] = $screentype; }
-	 if(empty($_SESSION['screentype'])) {
-	 	if($detect->isMobile() && !$detect->isTablet()) {
-	 		$_SESSION['screentype'] = 'mobile';
-		} else {
-	 		$_SESSION['screentype'] = 'desktop';
-	 	}
-	}
-	unset($detect);
-?>
 <!doctype html>
 <html lang="cs">
 	<head>
@@ -27,10 +13,6 @@
 		<![endif]-->
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style.css" media="all" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/print.css" media="print" />
-<?php if($_SESSION['screentype'] == 'mobile') { ?>
-		<meta name="viewport" content="width=420, user-scalable=no">
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/mobile.css" media="all" />
-<?php } ?>
 	</head>
 	<body>
 		<header>
