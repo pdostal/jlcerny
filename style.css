@@ -25,7 +25,7 @@ body>header>.banner { float: right; height: 30px; width: 200px; margin: 0px 15px
 body>header>nav { background-image: url('img_menu.png'); background-size: 792px,36px; width: 792px; height: 36px; }
 body>header>nav li { display: inline-block; height: 36px; float: left; }
 body>header>nav li a { text-decoration: none; color: #fff; }
-body>header>nav li a div { width: 100px; margin: 10px 0px; text-align: center; }
+body>header>nav li a div { width: 99px; margin: 10px 0px; text-align: center; }
 
 #widget_search { float: left; }
 #widget_search .screen-reader-text { display: none; }
