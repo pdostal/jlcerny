@@ -11,9 +11,8 @@ Tags:
 /* Begin Typography & Colors */
 
 /* Default */
-html,body,section,header,div,h1,h2,ul,li { margin: 0px; padding: 0px; overflow: hidden; }
+html,body,section,header,div,h1,h2,header ul,header li { margin: 0px; padding: 0px; overflow: hidden; }
 
-/* Body */
 html { background-color: #ededed; background-image: url('img_bg.png'); background-repeat: repeat; font-family: sans-serif, tahoma, verdana, arial; font-size: 13px; overflow: auto; }
 body { background-color: #fff; width: 792px; margin: 25px auto; padding: 4px; border-radius: 15px; opacity: 0.75; }
 
@@ -34,8 +33,15 @@ body>header>nav li.active a { background: rgba(0, 0, 0, 0.35); }
 #widget_search .screen-reader-text { display: non; }
 
 #main { float: left; width: 792px; }
-#main>ul li { float: left; height: 100px; width: 225px; display: inline-block; margin: 0px 15px; }
+#main>ul#postsindex li { float: left; height: 100px; width: 225px; display: inline-block; margin: 0px 15px; }
+
 #main>article { margin: 0px 15px; }
+#main p,#main ul,#main ol { margin: 7.5px 0px; }
+#main ul,#main ol { padding-left: 7.5px; }
+#main li { list-style-position: inside; }
+
+#main>.counter { display: block; clear: both; width: 100%; text-align: center; }
+#main>.counter li { display: inline-block; list-style-type: none; display: inline-block; }
 
 footer { width: 100%; text-align: center; margin-top: 25px; }
 
